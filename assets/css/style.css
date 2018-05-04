@@ -1,0 +1,118 @@
+body {
+    color: #777777;
+    width: 100%;
+    background-image: url(../images/wood1.png);
+}
+
+.header {
+    background-color: #ffffff;
+    text-align: center;
+    height: 86px;
+    border: 2px solid #cccccc;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    height: 60px;
+    text-align: center;
+    margin-left: 200px;
+    height: 37px;
+    width: 150px;
+    padding: 25px;
+ }
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+ .topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: gray
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: -400px;
+    margin-right: 400px;
+}
+
+.content {
+    padding: 15px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-top: 36px;
+    margin-bottom: 99px;
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 960px;
+    border: 2px solid #cccccc;
+}
+
+.portfolio {
+    padding: 15px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin-top: 36px;
+    margin-bottom: 99px;
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 960px;
+    border: 2px solid #cccccc;
+}
+
+
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+img {
+    height: 126px;
+    width: 167px;
+}
+
+
+#me {
+    height: 126px;
+    width: 167px;
+    float: left;
+    margin-right: 10px;
+}
+
+P {
+    line-height: 200%;
+}
+
+ .firstfooter {
+    background-color: #4aaaa5;
+    height: 8px;
+}
+
+footer {
+    background-color: #666666;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+}
