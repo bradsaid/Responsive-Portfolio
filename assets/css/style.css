@@ -63,7 +63,7 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
-#logo {
+.logo {
   float: left;
   width: 250px;
   height: 90px;
@@ -214,4 +214,50 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+  .topnav a {
+      float: none;
+      width: 100%;
+  }
+  .main-section {
+      width: 70%;
+      margin-left: 5%;
+  }
+  .logo {
+      margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+ .main-section {
+    width: 90%;
+    margin-left: 5%;
+ }
+ .logo {
+  margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  .work {
+    float: none;
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+  }
 }
