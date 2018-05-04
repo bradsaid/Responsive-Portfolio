@@ -1,0 +1,17 @@
+
+.topheader {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  height: 86px;
+  border: 2px solid #cccccc;
+}
+
+.name {
+  padding: 10px;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  color: #777777;
+}
